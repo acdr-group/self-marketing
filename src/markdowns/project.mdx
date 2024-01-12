@@ -1,0 +1,32 @@
+
+# {props.project.name}
+
+{props.projectThumbnail}
+
+## Beschreibung
+{props.project.description}
+
+
+## {props.project.pages ? "Seiten" : ""}
+{props.project.pages ?
+<ul>
+    {props.project.pages
+        ?.map((page, idx) =>
+            <li key={idx}>
+                {page}
+            </li>
+        )
+    }
+</ul> : null
+}
+
+## Libraries verwendet
+<ul>
+    {props.project.packages
+        ?.map((lib, idx) =>
+            <li key={idx}>
+                {lib}
+            </li>
+        )
+    }
+</ul>

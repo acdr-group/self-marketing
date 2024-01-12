@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital@0;1&display=swap');
+
+body {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font-family: var(--default-fontFamily);
+  font-size: var(--font-large);
+}
+:root {
+
+  --default-fontFamily: Rubik, 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  --max-content-width: 1200px;
+  --header-height: 64px;
+
+  --color-primary: #673ab7;
+  --color-secondary: #7756b8;
+  --color-on-primary: #FFFFFF;
+  --color-light-grey: #bdbdbd;
+  --color-black: #141A1F;
+
+  --space-1: 2px;
+  --space-2: 5px;
+  --space-3: 10px;
+  --space-4: 15px;
+  --space-5: 22px;
+  --space-6: 30px;
+  --space-7: 45px;
+  --space-8: 56px;
+  --space-9: 65px;
+  --space-10: 75px;
+  --space-11: 85px;
+  --space-12: 95px;
+  --space-13: 105px;
+  --space-14: 120px;
+
+  --font-small: 14px;
+  --font-normal: 16px;
+  --font-large: 18px;
+  --font-xlarge: 22px;
+  --font-2xlarge: 28px;
+  --font-3xlarge: 38px;
+  --font-4xlarge: 50px;
+
+}
+@media screen and (max-width: 900px) {
+  :root {
+    --space-1: 2px;
+    --space-2: 5px;
+    --space-3: 8px;
+    --space-4: 12px;
+    --space-5: 18px;
+    --space-6: 26px;
+    --space-7: 30px;
+    --space-8: 48px;
+    --space-9: 58px;
+    --space-10: 68px;
+    --space-11: 78px;
+    --space-12: 88px;
+    --space-13: 98px;
+    --space-14: 110px;
+
+    --font-small: 13px;
+    --font-normal: 15px;
+    --font-large: 17px;
+    --font-xlarge: 18px;
+    --font-2xlarge: 24px;
+    --font-3xlarge: 30px;
+    --font-4xlarge: 40px;
+  }
+}
