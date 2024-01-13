@@ -8,7 +8,7 @@ import analysisPic from "../assets/analysis_pic.png";
 import {Step as StepType} from "../components/shared/types/Step";
 
 export const heroSection: SectionType = {
-    title: "Entdecke eine neue Dimension der Wettervorhersage",
+    title: "Entdecke eine neue Dimension der Wetteranalyse",
     description: "Erlebe durch unsere erweiterte Wetteranalysen eine einzigartige Art mit einer Wetter-App zu interagieren. So eine Wetter-App hast du noch nie gesehen!",
     image: herosectionPic,
 }

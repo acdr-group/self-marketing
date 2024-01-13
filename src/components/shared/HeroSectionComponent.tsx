@@ -63,26 +63,26 @@ const TextBlockContainer: SxProps = () => ({
     display: "grid",
     gridGap: "var(--space-4)",
     "@media screen and (max-width: 900px)": {
-        textAlign: "center",
+        //textAlign: "center",
     }
 })
 const SectionTitle = styled.div<{color: string}>`
-  font-size: calc(1.1 * var(--font-4xlarge));
-  font-weight: bolder;
-  line-height: var(--space-8);
-  color: ${props => props.color};
+    font-size: calc(1.1 * var(--font-4xlarge));
+    font-weight: bolder;
+    line-height: var(--space-8);
+    color: ${props => props.color};
 `
 const SectionImage = styled.img`
-  max-width: 600px;
-  object-fit: cover;
-  justify-self: end;
+    max-width: 600px;
+    object-fit: cover;
+    justify-self: end;
 
-  box-shadow: 0 0 var(--space-4) grey;
-  border-radius: var(--space-2);
+    box-shadow: 0 0 var(--space-4) grey;
+    border-radius: var(--space-2);
 
-  @media screen and (max-width: 980px) {
-    justify-self: center;
-    width: 100%;
-  }
+    @media screen and (max-width: 980px) {
+        justify-self: center;
+        width: 100%;
+    }
 `
 export default HeroSectionComponent
