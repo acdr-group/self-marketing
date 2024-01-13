@@ -14,6 +14,8 @@ import Typography from "@mui/material/Typography";
 import qrCodeIos from "../assets/qrcode-ios.png"
 // @ts-ignore
 import qrCodeAndroid from "../assets/qrcode-android.png"
+// @ts-ignore
+import devicePic from "../assets/devices.png"
 import styled from "styled-components";
 
 const HomePageComponent: React.FC = () => {
@@ -76,11 +78,18 @@ const HomePageComponent: React.FC = () => {
                 ref={refHowItWorksSection}
                 title={howItWorksSection.title}
                 description={howItWorksSection.description}
-            ><StepsAccordion steps={steps}/>
+            >
+                <DevicesComponent src={devicePic} alt="devices" />
+                <StepsAccordion steps={steps}/>
             </CenteredSectionComponent>
         </Box>
     )
 }
+
+const DevicesComponent = styled.img`
+    max-width: 300px;
+    object-fit: cover;
+`
 
 const QrCodeComponent = styled.img`
     box-shadow: 0 0 var(--space-4) grey;
