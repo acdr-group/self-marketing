@@ -17,6 +17,8 @@ import qrCodeAndroid from "../assets/qrcode-android.png"
 // @ts-ignore
 import devicePic from "../assets/devices.png"
 import styled from "styled-components";
+import Alert from '@mui/material/Alert';
+import {CenteredContent} from "../sharedStyles";
 
 const HomePageComponent: React.FC = () => {
 
@@ -59,6 +61,11 @@ const HomePageComponent: React.FC = () => {
 
     return (
         <Box sx={{ pb: 2 }}>
+            <Box sx={CenteredContent}>
+                <Alert variant="filled" severity="error" sx={{ mt: 4 }}>
+                    Unser Server wird derzeit voraussichtlich bis zum 28.01.2024 gewartet. Die Demo wird vor diesem Datum nicht verfügbar sein. Wir bitten dies zu entschuldigen.
+                </Alert>
+            </Box>
             <HeroSectionComponent
                 title={heroSection.title}
                 description={heroSection.description}
