@@ -24,6 +24,7 @@ const HomePageComponent: React.FC = () => {
 
     const refHowItWorksSection = useRef<HTMLDivElement | null>(null)
 
+
     const heroSectionButtons: ButtonType[] = [
         {label: "Zur Demo der Web-App", variant: "contained", onClick: () => window.open(process.env.REACT_APP_WEB_APP_URL!, "_blank")},
         {label: "App Herunterladen", variant: "outlined", onClick: () => scrollToNode(refHowItWorksSection.current)},
