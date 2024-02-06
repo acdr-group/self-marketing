@@ -34,22 +34,22 @@ const HomePageComponent: React.FC = () => {
         {
             title: "expo go",
             subtitle: "1. Lade die Expo Go App herunter",
-            description: <Typography>Im AppStore oder Play store suche nach "<code style={{ color: "var(--color-primary)" }}>Expo Go</code>" und lade die App herunter</Typography>,
+            description: <Typography>Suche nach "<code style={{ color: "var(--color-primary)" }}>Expo Go</code>" im AppStore oder Google PlayStore und lade die App herunter</Typography>,
         },
         {
             title: "iOS",
             subtitle: <div>2. Hol dir die Demo-App für iOS <b>(Nur für iOS-Geräte)</b></div>,
             description: <Box sx={{ display: "grid", gap: 2 }}>
-                <div>Gib die folgende URL in der Expo Go App ein oder scanne den QR-Code mit der Kamera oder der Expo Go App</div>
+                <div>Gib die folgende URL in die Expo Go App ein oder scanne den QR-Code mit der Kamera oder der Expo Go App</div>
                 <Typography color="primary" variant="h6">exp://u.expo.dev/update/c068c4a8-674e-4ae8-a0af-c41ca73f3c7d</Typography>
                 <QrCodeComponent src={qrCodeIos} alt={"qr-code for iOS"}/>
             </Box>,
         },
         {
             title: "android",
-            subtitle: <div>3. Hol dir die Demo-App für Android <b>(Nur für Android-Gerät)</b></div>,
+            subtitle: <div>3. Hol dir die Demo-App für Android <b>(Nur für Android-Geräte)</b></div>,
             description: <Box sx={{ display: "grid", gap: 2 }}>
-                <div>Gib die folgende URL in der Expo Go App ein oder scanne den QR-Code mit der Kamera oder der Expo Go App</div>
+                <div>Gib die folgende URL in die Expo Go App ein oder scanne den QR-Code mit der Kamera oder der Expo Go App</div>
                 <Typography color="primary" variant="h6">exp://u.expo.dev/update/11709675-b25b-4af3-b40d-e903c0534797</Typography>
                 <QrCodeComponent src={qrCodeAndroid} alt={"qr-code for iOS"}/>
             </Box>,

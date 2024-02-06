@@ -59,5 +59,5 @@ export const steps: StepType[] = [
 
 export const howItWorksSection: SectionType = {
     title: "Lade dir die Demo-Version der Mobile-App herunter",
-    description: "Die Demo-Version bietet dir die Möglichkeit, die App in Ruhe auf deinem mobilen Gerät zu testen und zwar egal ob auf Android oder iOS. Folge den Schritten unten.",
+    description: "Die Demo-Version bietet dir die Möglichkeit, die App ganz bequem auf deinem mobilen Gerät zu testen und zwar egal ob auf Android oder iOS. Folge den Schritten unten.",
 }
